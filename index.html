@@ -1,38 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alice Zhang's Portfolio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<h1>The Portfolio of Alice Zhang</h1>
+    <meta
+      name="description"
+      content="Alice Zhang's portfolio – UX Researcher and Designer with experience in game development, accessibility, and usability evaluation."
+    />
+    <title>Alice Zhang | Portfolio</title>
 
-<h2>Projects</h2>
-<ul>
-    <li><a href="https://duncanlau.itch.io/eecs494-group-23-p1-gold">The Legend of Zelda (Unity Remaster)</a></li>
-    <li><a href="https://minuet-hoax.itch.io/good">Goo!D</a> - A 2D puzzle-platformer where players control a slime navigating obstacles and solving puzzles by splitting and switching between slime clones.</li>
-</ul>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#top">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+      </ul>
+    </nav>
 
-<h2>My Contributions</h2>
-<ul>
-    <li>Implemented core player mechanics, rooms, and weapon mechanics</li>
-    <li>Developed weapon systems such as the sword, bow, and bombs</li>
-    <li>Designed and scripted level rooms and interactions</li>
-    <li>Integrated audio and visual effects for gameplay elements</li>
-    <li>Designed and implemented custom levels</li>
-    <li>Developed slime-based mechanics for *Goo!D*, including movement, cloning, and puzzle interactions</li>
-</ul>
+    <section class="center">
+      <main>
+        <div class="img-info-container">
+          <div class="img-container">
+            <img width="80" height="80" src="./asset/img/ProfileImageHead.jpg" alt="Alice Zhang" />
+          </div>
+          <div class="info-container">
+            <div class="social-container">
+              <a href="https://github.com/Minuet-Hoax" target="_blank">
+                <img width="24" height="24" src="./asset/svg/github.svg" alt="GitHub" /></a>
+                <!-- need a link -->
+              <a href="" target="_blank">
+                <!-- need a link -->
+                <img width="24" height="24" src="./asset/svg/linkedin.svg" alt="LinkedIn" /></a>
+            </div>
+            <h1>Alice Yimeng Zhang</h1>
+            <hr />
+          </div>
+        </div>
+        <p class="user-bio">
+          UX Researcher & Designer | Game Developer | Linguistics & Cognitive Science Enthusiast
+        </p>
+        <!-- Quote Section -->
+        <div class="quote-container">
+          <p>
+            <i>
+              I thrive in change, turning challenges into opportunities to learn and innovate. 
+              I seek harmony in collaboration, new ideas in every interaction, and depth in every insight. 
+              Curiosity fuels me, and learning never stops.
+            </i>
+          </p>
+        </div>
+      </main>
+    </section>
 
-<h2>Technologies Used</h2>
-<ul>
-    <li><strong>Unity Game Engine</strong> - Development</li>
-    <li><strong>C#</strong> - Scripting</li>
-    <li><strong>GitHub Desktop</strong> - Version Control</li>
-    <li><strong>Jira</strong> - Task Management</li>
-    <li><strong>Discord</strong> - Team Communication</li>
-</ul>
+    <div class="center">
+      <div id="about">
+        <h2>About Me</h2>
+        <p>
+          I am currently pursuing a Master of Science in Information (UX Research & Design) at the University of Michigan, Ann Arbor.
+          I have a background in Psychology & Brain Science and Linguistics, and I am passionate about designing accessible and inclusive digital experiences.
+        </p>
+        <h3>Skills</h3>
+        <ul>
+          <li>Programming: Python, JavaScript, HTML, CSS, C#, C++, R</li>
+          <li>UX Research: Usability testing, heuristic evaluation, competitive analysis, user interviews</li>
+          <li>Design: Wireframing, prototyping, persona & scenario, storyboarding, journey mapping</li>
+          <li>Software & Tools: Figma, Adobe Suite, Sketch, Unity, Unreal Engine, Blender, JMeter</li>
+          <li>Data Analysis: R Markdown, MATLAB, LaTeX, SQL</li>
+          <li>Languages: Mandarin (native), English (fluent), Japanese (intermediate), French (intermediate)</li>
+        </ul>
+      </div>
+    </div>
 
-</body>
+    <section class="center">
+      <div id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="repository-container">
+            <h3><a href="https://minuet-hoax.itch.io/good">Goo!D - 2D Puzzle Platformer</a></h3>
+            <p>Developed a 2D platform puzzle game where players control a slime that splits into two to solve challenges.</p>
+            <span class="language-used">Unity</span>
+            <span class="language-used">C#</span>
+            <span class="language-used">GitHub Desktop</span>
+            <span class="language-used">Jira</span>
+          </div>
+          <div class="repository-container">
+            <h3><a href="https://duncanlau.itch.io/eecs494-group-23-p1-gold">Zelda Dungeon Remake</a></h3>
+            <p>Recreated the first dungeon of The Legend of Zelda (1986) with additional mechanics allowing players to switch realms.</p>
+            <h4>My Contributions:</h4>
+            <ul>
+              <li>Implemented core player mechanics, rooms, and weapon mechanics</li>
+              <li>Developed weapon systems such as the sword, bow, and bombs</li>
+              <li>Designed and scripted level rooms and interactions</li>
+              <li>Integrated audio and visual effects for gameplay elements</li>
+              <li>Designed and implemented custom levels</li>
+            </ul>
+            <span class="language-used">Unity, C#, GitHub Desktop, Jira</span>
+          </div>
+          <div class="repository-container">
+            <h3><a href="">Gaming Accessibility App</a></h3>
+            <p>Designed a cross-platform app for deaf gamers to enhance accessibility.</p>
+            <span class="language-used">UX Research</span>
+            <span class="language-used">Figma</span>
+          </div>
+          <div class="repository-container">
+            <h3><a href="">Responsive Travel Photography Website</a></h3>
+            <p>Built a responsive travel photography website with accessibility principles in mind.</p>
+            <span class="language-used">HTML</span>
+            <span class="language-used">CSS</span>
+            <span class="language-used">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="center">
+      <div id="experience">
+        <h2>Experience</h2>
+        <div class="project-container">
+          <div class="repository-container">
+            <h3>Beijing 2022 Olympics</h3>
+            <p>Translated and assisted with personnel badge management, ensuring compliance with the International Olympic Committee.</p>
+            <span class="language-used">Translation</span>
+            <span class="language-used">Project Assistance</span>
+          </div>
+          <div class="repository-container">
+            <h3>China Development Research Foundation</h3>
+            <p>Conducted field research in Xinjiang and Sichuan on children’s education and nutrition programs.</p>
+            <span class="language-used">Field Research</span>
+            <span class="language-used">Data Collection</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © <script>document.write( new Date().getFullYear() );</script> Built by Alice Zhang
+      </p>
+    </footer>
+
+    <!-- remove if you want to remove hover effect -->
+    <script type="module" src="./script/event-effect.js"></script>
+  </body>
 </html>
